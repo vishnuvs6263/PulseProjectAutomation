@@ -35,7 +35,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
-		// Launching the browser and navigating to the application URL
+		// Launching the browser and navigating to the application URL from config file
 		driver.get(prop.getProperty("URL"));
 		
 	}
